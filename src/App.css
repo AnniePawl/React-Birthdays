@@ -1,3 +1,9 @@
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom,#dbfeff 30%, #6ed3f4 70%);
+  overflow: hidden;
+}
+
 .title {
  display:flex;
  align-items: center;

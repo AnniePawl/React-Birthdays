@@ -5,7 +5,8 @@ class Birthdays extends Component {
     const { name, birthMonth, birthYear, birthDay, age } = this.props;
 
     return (
-      <div>
+
+      <div className="birthdays_">
         <div className="name">
           Name:{name}
         </div>
@@ -26,6 +27,7 @@ class Birthdays extends Component {
           Age: {age}
         </div>
       </div>
+
     )
   }
 }
